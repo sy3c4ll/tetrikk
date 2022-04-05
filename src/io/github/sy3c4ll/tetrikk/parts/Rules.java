@@ -23,6 +23,6 @@ public interface Rules{
 			              Color.RED,
 			              Color.ORANGE};
 	Dimension DIMENSION=new Dimension(BLOCK_SIZE*COL+BLOCK_EDGE*COL*2+BOARD_EDGE*2,BLOCK_SIZE*ROW+BLOCK_EDGE*ROW*2+BOARD_EDGE*2);
-	int FRAME_INTERVAL=10,INTERVAL=100;
+	int FRAME_INTERVAL=10,INTERVAL=500;
 	SecureRandom RANDOM=new SecureRandom();
 }
